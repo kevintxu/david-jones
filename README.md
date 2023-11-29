@@ -14,7 +14,7 @@ As next steps, we will schedule a 60-90 mins in person code review / interview.
 You are provided with with two files
 
 * **Input:** CustData.json
- * This is a sample input file. Generate 5000 rows of data.
+  * This is a sample input file. Generate 5000 rows of data.
 * **Output:** CustSeg.csv 
 
 Processes this data and perform customer segmentation based on their total purchase amount. The segmentation should be done according to the following criteria: 
