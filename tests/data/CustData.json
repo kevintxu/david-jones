@@ -2,5 +2,7 @@
   {"customer_id": 1, "name": "John Doe", "email": "john@example.com", "purchase_amount": 120.50, "purchase_date": "2023-01-15"},
   {"customer_id": 2, "name": "Jane Smith", "email": "jane@example.com", "purchase_amount": 75.20, "purchase_date": "2023-02-02"},
   {"customer_id": 3, "name": "Bob Johnson", "email": "bob@example.com", "purchase_amount": 200.00, "purchase_date": "2023-02-20"},
-  // ... (repeat the structure for a total of 1000 rows)
+  {"customer_id": 4, "name": "Medium Upper", "email": "mu@example.com", "purchase_amount": 299.51, "purchase_date": "2023-01-01"},
+  {"customer_id": 4, "name": "Medium Upper", "email": "mu@example.com", "purchase_amount": 200.49, "purchase_date": "2023-02-01"}
+
 ]

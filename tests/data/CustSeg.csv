@@ -1,4 +1,5 @@
 ﻿customer_id,name,email,purchase_amount,segment
 1,John Doe,john@example.com,120.5,Medium
 2,Jane Smith,jane@example.com,75.2,Low
-3,Bob Johnson,bob@example.com,200,Medium
+3,Bob Johnson,bob@example.com,200.0,Medium
+4,Medium Upper,mu@example.com,500.0,Medium
