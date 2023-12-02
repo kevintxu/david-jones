@@ -1,7 +1,6 @@
 # %%
 import pyspark
 import datetime
-import pytz
 import logging
 from pyspark.sql.types import TimestampType
 from pyspark.sql import functions as sf
@@ -63,11 +62,11 @@ def calculate_segment (df:pyspark.sql.DataFrame, from_date:datetime.datetime, to
     sum_df = df\
         .where((sf.col("purchase_date") >= from_date) & (sf.col("purchase_date") < to_date))\
         .groupby(sf.col("customer_id"), sf.col("name"), sf.col("email"))\
-        .agg(sf.sum(sf.col("purchase_amount")).alias("total_purchase_amount"))
+        .agg(sf.sum(sf.col("purchase_amount")).alias("purchase_amount"))
 
     sum_df = sum_df.withColumn("segment", 
-        sf.when(sf.col("total_purchase_amount") < 100, "Low")\
-        .when(sf.col("total_purchase_amount") > 500, "High")\
+        sf.when(sf.col("purchase_amount") < 100, "Low")\
+        .when(sf.col("purchase_amount") > 500, "High")\
         .otherwise("Medium")
     ).orderBy(sf.col("customer_id"))
     return sum_df

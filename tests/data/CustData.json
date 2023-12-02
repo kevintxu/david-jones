@@ -3,6 +3,15 @@
   {"customer_id": 2, "name": "Jane Smith", "email": "jane@example.com", "purchase_amount": 75.20, "purchase_date": "2023-02-02"},
   {"customer_id": 3, "name": "Bob Johnson", "email": "bob@example.com", "purchase_amount": 200.00, "purchase_date": "2023-02-20"},
   {"customer_id": 4, "name": "Medium Upper", "email": "mu@example.com", "purchase_amount": 299.51, "purchase_date": "2023-01-01"},
-  {"customer_id": 4, "name": "Medium Upper", "email": "mu@example.com", "purchase_amount": 200.49, "purchase_date": "2023-02-01"}
-
+  {"customer_id": 4, "name": "Medium Upper", "email": "mu@example.com", "purchase_amount": 200.49, "purchase_date": "2023-02-01"},
+  {"customer_id": 5, "name": "Medium Lower", "email": "ml@example.com", "purchase_amount": 45.5, "purchase_date": "2023-01-01"},
+  {"customer_id": 5, "name": "Medium Lower", "email": "ml@example.com", "purchase_amount": 54.5, "purchase_date": "2023-03-31"},
+  {"customer_id": 6, "name": "Low April", "email": "la@example.com", "purchase_amount": 99.99, "purchase_date": "2023-03-31"},
+  {"customer_id": 6, "name": "Low April", "email": "la@example.com", "purchase_amount": 20.50, "purchase_date": "2023-04-01"},
+  {"customer_id": 7, "name": "High", "email": "h@example.com", "purchase_amount": 100, "purchase_date": "2023-01-01"},
+  {"customer_id": 7, "name": "High", "email": "h@example.com", "purchase_amount": 100, "purchase_date": "2023-02-01"},
+  {"customer_id": 7, "name": "High", "email": "h@example.com", "purchase_amount": 100, "purchase_date": "2023-03-01"},
+  {"customer_id": 7, "name": "High", "email": "h@example.com", "purchase_amount": 100, "purchase_date": "2023-02-28"},
+  {"customer_id": 7, "name": "High", "email": "h@example.com", "purchase_amount": 100, "purchase_date": "2023-03-31"},
+  {"customer_id": 7, "name": "High", "email": "h@example.com", "purchase_amount": 0.5, "purchase_date": "2023-01-31"}
 ]

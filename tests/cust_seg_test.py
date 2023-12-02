@@ -3,7 +3,6 @@ import pytest
 import pathlib
 import sys
 import pyspark.sql
-import pytz
 import datetime
 import logging
 

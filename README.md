@@ -24,3 +24,11 @@ Processes this data and perform customer segmentation based on their total purch
 * "High": Total purchase amount greater than $500.
 
 Implement customer segmentation based on the specified purchase amount ranges.
+
+## Run Script
+
+In the `./src` folder, run `python .\cust_seg.py`. The output file will be created in the `./src/CustSeg.csv/` folder.
+
+## Run Unit Tests
+In the `./tests` folder, run `pytest -vv -s --log-cli-level=INFO`. Expected output should match `./tests/data/CustSeg.csv`
+
